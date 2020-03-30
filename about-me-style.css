@@ -7,7 +7,7 @@
 
 body {
   background-image: url("website-background.jpg");
-  background-position: 47.2%; 
+  background-position: 50%; 
   background-size: cover;
   background-attachment: fixed;
 }
@@ -32,12 +32,17 @@ body {
   height: 100vh;
 }
 
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .about-heading {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2%;
   width: 90%;
-  /* padding: -10% 0% -10% 0%;  NEED HELP*/
+  margin-top: 2%;
   justify-content: space-evenly;
   align-items: center;
   background-color: #21130D85;
@@ -52,8 +57,63 @@ body {
 
 .description {
   display: flex;
-  justify-content: center;
+  width: 90%;
   margin-top: 2%;
-  background-color: #E5AE8A;
+  background-color: #21130D85;
 
+}
+
+.grid {
+  display: grid;
+  grid-gap: 5px 5px;
+  width: 90%;
+  margin-top: 2%;
+	width: 90%;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1 / 2;
+  grid-column: 1 / 3;
+  background-color: #21130D85;
+}
+
+.ruby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  background-color: #21130D85;
+}
+
+.git {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  background-color: #21130D85;
+}
+
+.html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3 / 4;
+  grid-column: 1 / 2;
+  background-color: #21130D85;
+}
+
+.css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  background-color: #21130D85;
 }
