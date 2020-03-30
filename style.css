@@ -3,12 +3,19 @@ body {
   background-position: 47.2%; 
   background-size: cover;
   background-attachment: fixed;
- }
+}
 
- .top-nav {
-   display: flex;
-   background-color: #060403;
-  }
+.top-nav {
+  display: flex;
+  justify-content: center;
+  background-color: #21130D;
+  width: 100vw;
+  height: 5vh;
+}
 .top-nav a {
-  text-decoration: none  #9D553A;
+  justify-content: space-evenly;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #E5AE8A;
 }
