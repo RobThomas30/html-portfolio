@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
 body {
   background-image: url("website-background.jpg");
   background-position: 47.2%; 
@@ -25,14 +31,4 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-}
-
-.name {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  text-decoration: none;
-  font-family: sans-serif;
-  font-weight: bolder;
-  color: #E5AE8A;
 }
