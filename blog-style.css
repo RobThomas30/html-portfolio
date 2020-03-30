@@ -32,28 +32,3 @@ body {
   height: 100vh;
 }
 
-.about-heading {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
-  width: 90%;
-  /* padding: -10% 0% -10% 0%;  NEED HELP*/
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #21130D85;
-}
-
-.rob-pic {
-  width: 150px;
-  height: 150px;
-  background-color: #E5AE8A;
-  border-radius: 20%;
-}
-
-.description {
-  display: flex;
-  justify-content: center;
-  margin-top: 2%;
-  background-color: #E5AE8A;
-
-}
