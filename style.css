@@ -4,3 +4,11 @@ body {
   background-size: cover;
   background-attachment: fixed;
  }
+
+ .top-nav {
+   display: flex;
+   background-color: #060403;
+  }
+.top-nav a {
+  text-decoration: none  #9D553A;
+}
