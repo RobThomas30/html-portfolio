@@ -7,15 +7,32 @@ body {
 
 .top-nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
   background-color: #21130D;
   width: 100vw;
   height: 5vh;
 }
 .top-nav a {
-  justify-content: space-evenly;
+  display: flex;
   text-align: center;
   text-decoration: none;
   font-family: sans-serif;
+  font-weight: bolder;
+  color: #E5AE8A;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bolder;
   color: #E5AE8A;
 }
