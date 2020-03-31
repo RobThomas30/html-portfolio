@@ -70,8 +70,8 @@ body {
 }
 
 .img-holder {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   padding-bottom: 2.5%;
   padding-right: 10%;
   width: 200px;
@@ -79,6 +79,8 @@ body {
 }
 
 img {
+  width: 100%;
+  height: 100%;
   border-radius: 10%;
   object-fit: cover;
 }
