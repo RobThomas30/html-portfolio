@@ -42,6 +42,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  max-width: 800px;
   margin-top: 2%;
   justify-content: space-evenly;
   align-items: center;
@@ -51,22 +52,30 @@ body {
 .rob-pic {
   width: 150px;
   height: 150px;
+  object-fit: cover;
   background-color: #E5AE8A;
-  border-radius: 20%;
+  border-radius: 10%;
 }
 
 .description {
   display: flex;
+  justify-content: center;
   width: 90%;
+  max-width: 800px;
   margin-top: 2%;
   background-color: #21130D95;
+}
 
+.p-holder {
+  max-width: 800px;
+  padding: 2% 2% 2% 2%;
 }
 
 .grid {
   display: grid;
   grid-gap: 5% 1%;
   width: 90%;
+  max-width: 800px;
   margin-top: 1%;
 	width: 90%;
 	grid-template-rows: 1fr 1fr;
@@ -75,6 +84,7 @@ body {
 
 .skills {
   width: 90%;
+  max-width: 800px;
   margin-top: 2%;
   text-align: center;
   padding: 2% 0% 2% 0%;
@@ -86,6 +96,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 2% 2% 2% 2%;
   grid-row: 1 / 2;
   grid-column: 1 / 2;
   background-color: #21130D95;
@@ -121,8 +132,18 @@ body {
   background-color: #21130D95;
 }
 
+.icon-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #E5AE8A;
+  border-radius: 10%;
+}
+
 .icon {
-width: 15%;
+width: 90%;
 object-fit: contain;
 margin: 0 auto;
 display: block;
