@@ -72,9 +72,14 @@ body {
 .img-holder {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 2%;
+  padding-bottom: 2.5%;
   padding-right: 10%;
   width: 200px;
   height: 200px;
-  object-fit: contain;
 }
+
+img {
+  border-radius: 10%;
+  object-fit: cover;
+}
+
