@@ -121,7 +121,9 @@ body {
   background-color: #21130D95;
 }
 
-img {
-  width: 40%;
-  height: 40%;
+.icon {
+width: 15%;
+object-fit: contain;
+margin: 0 auto;
+display: block;
 }
