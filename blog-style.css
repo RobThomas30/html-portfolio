@@ -53,6 +53,7 @@ body {
   display: flex;
   width: 100%;
   margin-top: 8%;
+  padding: 1% 0% 1% 0%;
   justify-content: space-evenly;
   align-items: center;
   background-color: #21130D95;
@@ -65,7 +66,7 @@ body {
 .blog-1 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -73,7 +74,7 @@ body {
 .blog-2 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -81,7 +82,7 @@ body {
 .blog-3 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -89,7 +90,7 @@ body {
 .blog-4 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -97,7 +98,7 @@ body {
 .blog-5 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -105,7 +106,7 @@ body {
 .blog-6 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 4%;
+  margin-top: 3%;
   padding: 2%;
   background-color: #21130D95;
 }
