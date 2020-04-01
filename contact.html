@@ -14,51 +14,42 @@
     <a href="blog.html">BLOG</a>
     <a href="contact.html">CONTACT</a>
   </div> 
-  <div>
-    <h1>CONTACT</h1>
-  </div>
-  <div>
-    <form name="contact" netlify>
-      <p>
-        <label>NAME <input type="text" name="name" /></label>
-      </p>
-      <p>
-        <label>EMAIL <input type="email" name="email" /></label>
-      </p>
-      <p>
-        <label>MESSAGE <input type="message" name="message" /></label>
-      </p>
-      <p>
-        <button type="submit">SEND</button>
-      </p>
-    </form>
-    <!-- <form action="NAME">
-      <label for="NAME">NAME</label>
-      <textarea id="contact-name" rows="1" cols="45" placeholder="NAME"></textarea>
-    </form>
-  </div>
-  <div>
-    <form action="EMAIL">
-      <label for="EMAIL">EMAIL</label>
-      <textarea id="contact-email" rows="1" cols="45" placeholder="EMAIL"></textarea>
-    </form>
-  </div>
-  <div>
-    <form action="MESSAGE">
-      <label for="message">MESSAGE</label>
-      <textarea id="contact-message" rows="10" cols="45" placeholder="MESSAGE"></textarea>
-    </form>
-    <button type="submit">SEND</button> -->
-  </div>
-  <div class="other-contacts">
-    <div>
-      <a href=""><img src="" alt=""></a>
-    </div>
-    <div>
-      <a href=""><img src="" alt=""></a>
-    </div>
-    <div>
-      <a href=""><img src="" alt=""></a>
+  <div class="container">
+    <div class="content">
+      <div class="contact-heading">
+        <h1>CONTACT</h1>
+      </div>
+      <div>
+
+      <div class="form-holder">
+        <form action="https://formspree.io/xknvwvjk" method="POST">
+          <label>
+            <input type="text" name="_replyto" placeholder="Name">
+            <input type="text" name="_replyto" placeholder="Email">
+          </label>
+          <label>
+            <textarea name="message" placeholder="Message"></textarea>
+          </label>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="other-contacts">
+        <div>
+          <a href=""><img src="" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="" alt=""></a>
+        </div>
+        <div>
+          <a href=""><img src="" alt=""></a>
+        </div>
+      </div>
+
+      <div class="resume">
+        RESUME
+      </div>
+
     </div>
   </div>
 </body>
