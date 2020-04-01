@@ -41,7 +41,7 @@ body {
 .blog-heading {
   display: flex;
   width: 90%;
-  margin-top: 2%;
+  margin-top: 3%;
   max-width: 800px;
   justify-content: space-evenly;
   align-items: center;
@@ -56,7 +56,47 @@ body {
 .blog-1 {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 2%;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #21130D95;
+}
+
+.blog-2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #21130D95;
+}
+
+.blog-3 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #21130D95;
+}
+
+.blog-4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #21130D95;
+}
+
+.blog-5 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #21130D95;
+}
+
+.blog-6 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4%;
   padding: 2%;
   background-color: #21130D95;
 }
@@ -70,10 +110,8 @@ body {
 }
 
 .img-holder {
-  /* display: flex;
-  flex-wrap: wrap; */
   padding-bottom: 2.5%;
-  padding-right: 10%;
+  padding-right: 2%;
   width: 200px;
   height: 200px;
 }
