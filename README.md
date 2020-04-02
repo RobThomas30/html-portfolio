@@ -44,7 +44,7 @@ This has been achieved by creating a hash using sha584 and using this hash as th
 
 The website simply has all pages link to each other via the navigation bar. A sitemap for the website is presented below.
 
-![Sitemap](./docs/sitemap.jpg)
+![sitemap](./docs/sitemap.png)
 
 # Screenshots
 
